@@ -58,6 +58,16 @@ module.exports = {
             filename: 'slider.html',
             template: './src/page/slider.html'
         }),
+        new HtmlWebpack({
+            //title: 'Mi Webpack App',
+            filename: 'slider2.html',
+            template: './src/page/slider2.html'
+        }),
+        new HtmlWebpack({
+            //title: 'Mi Webpack App',
+            filename: 'slider3.html',
+            template: './src/page/slider3.html'
+        }),
         new MiniCssExtract({
             filename: '[name].css',
             ignoreOrder: false
