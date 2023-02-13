@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    background-color: rgb(235, 236, 236);
+}
+
+img { 
+    width: 150px;
+}
+
+.text-layout{
+    color: rgb(24, 24, 26);
+    margin: 20px;
+}
+.card{
+    justify-content: center;
+    margin-top: 10px;
+}
+.button{
+    margin: 10px;
+}
+.div-1 {
+    display: flex;
+    justify-content: center;
+}
+.div-carousel{
+    display: flex;
+    justify-content: end;
+}
